@@ -1,0 +1,23 @@
+{
+    "name": "itcfratsmanpl/php-langstons-ant",
+    "description": "Langton's ant written in PHP",
+    "type": "project",
+    "require": {
+        "whatthejeff/drawille": "^1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arkadiusz Kondas",
+            "email": "arkadiusz.kondas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}

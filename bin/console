@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+require 'vendor/autoload.php';
+
+$world = new World(150, 150);
+$ant = new Ant($world);
+$screen = new Screen();
+
+$i=0;
+while(true) {
+    if(0==$i%3) {
+        $screen->display($world->getFrame());
+    }
+    $ant->step();
+    $i++;
+}
